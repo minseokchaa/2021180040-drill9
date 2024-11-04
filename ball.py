@@ -18,4 +18,5 @@ class Ball:
 
         if self.x < 25 or self.x > 800-25:
             game_world.remove_object(self)
+            print('공 삭제')
         pass
